@@ -1,10 +1,12 @@
-Echo-V2.9 (26404)
+Echo-V3.0 (26404)
 
 Diffs to official Magisk
 
     [App] Fix BT when SUList is enforced.
     [App] Added a new feature to install Magisk into /system partition for emulators that do not have a boot image.
-    [App] Improved installing and uninstalling apk.
+    [App] install or uninstall apk asynchronously.
+    [App] Material You theming by @onurmercury.
+    [App] Grant root to shell by default when using debug version.
     [Zygisk] Changed the method of loading Zygisk to ptrace init implementation (required Android 8+). The implementation comes from ZygiskNext. This method does not need to change any property and is more compatible with some emulators that ignore ro.dalvik.vm.native.bridge property.
     [Zygisk] Restore access to global tmpdir for zygote
     [General] Enhanced the support for mounting in pre-init for modules. This enables modules to modify the system before the init process starts, which can be useful for some advanced use cases.
