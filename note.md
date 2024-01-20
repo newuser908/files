@@ -1,4 +1,4 @@
-Echo-V3.1 (26404)
+Echo-V3.2 (26404)
 
 Diffs to official Magisk
 
