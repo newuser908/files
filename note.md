@@ -1,4 +1,4 @@
-Echo-V3.3 (26405)
+Echo-V3.4 (27001)
 
 Diffs to official Magisk
 
@@ -18,11 +18,4 @@ Diffs to official Magisk
     [General] Implemented a new feature to support deleting file by using indicated whiteout character device, similar to overlayfs. This allows modules to delete files from the original system without actually modifying it.
     [General] Restored support for devices with no selinux support, which was removed by the official Magisk. This allows users to use Magisk on devices that do not have selinux enabled in kernel.
 
-
-Diffs to v26.4
-
-    [Zygisk] Introduce new code injection mechanism
-    [Zygisk] Support new signature introduced in U QPR2
-    [SEPolicy] Update libsepol to properly set some policy config bits
-    [MagiskBoot] Support compressing init so Magisk is installable on devices with small boot partitions
 
